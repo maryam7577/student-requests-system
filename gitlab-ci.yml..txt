@@ -1,0 +1,18 @@
+
+Cd "C:\Users\Elite\Desktop\Student Requests System
+git init
+git add .
+
+git commit -m 
+git branch _M main
+git remote add github  https://github.com/maryam7577/student-requests-system.git
+
+git push-u origin main
+
+"Cd "C:\Users\Elite\Desktop\Student- Requests- System
+git add .
+
+git branch -M main 
+git remote set-ur1 github https://github.com/maryam7577/student-requests-system.git
+git push -u origin main
+    
