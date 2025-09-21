@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إنشاء طلب جديد</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>إنشاء طلب جديد</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="requests.html">الطلبات</a></li>
+                <li><a href="track.html">تتبع الطلبات</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <label for="studentName">اسم الطالب:</label>
+            <input type="text" id="studentName" name="studentName" required>
+
+            <label for="requestType">نوع الطلب:</label>
+            <select id="requestType" name="requestType" required>
+                <option value="">اختر نوع الطلب</option>
+                <option value="transcript">كشف درجات</option>
+                <option value="enrollment">تسجيل مادة</option>
+                <option value="certificate">شهادة</option>
+            </select>
+
+            <label for="description">الوصف:</label>
+            <textarea id="description" name="description" required></textarea>
+
+            <button type="submit">إرسال الطلب</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2025 كلية التقنية</p>
+    </footer>
+</body>
+</html>

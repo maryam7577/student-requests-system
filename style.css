@@ -1,0 +1,63 @@
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+    Background-color: #f8f8f8;
+}
+
+Header {
+    Background-color: #004080;
+    Color: white;
+    Padding: 20px;
+    Text-align: center;
+}
+
+Nav ul {
+    List-style: none;
+    Padding: 0;
+}
+
+Nav ul li {
+    Display: inline-block;
+    Margin: 0 15px;
+}
+
+Nav ul li a {
+    Color: white;
+    Text-decoration: none;
+}
+
+Main {
+    Padding: 20px;
+}
+
+Form label {
+    Display: block;
+    Margin: 10px 0 5px;
+}
+
+Form input, form select, form textarea {
+    Width: 100%;
+    Padding: 8px;
+    Margin-bottom: 15px;
+    Box-sizing: border-box;
+}
+
+Form button, .btn {
+    Background-color: #004080;
+    Color: white;
+    Padding: 10px 20px;
+    Border: none;
+    Cursor: pointer;
+}
+
+Form button:hover, .btn:hover {
+    Background-color: #0066cc;
+}
+
+Footer {
+    Text-align: center;
+    Padding: 15px;
+    Background-color: #ddd;
+    Margin-top: 20px;
+}
