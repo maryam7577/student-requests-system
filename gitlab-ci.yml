@@ -1,0 +1,22 @@
+Echo stages:
+  - build
+  - test
+  - deploy
+
+Build_job:
+  Stage: build
+  Script:
+-	Echo Building project...
+
+Test_job:
+  Stage: test
+  Script:
+-	Echo Running tests...
+
+Deploy_job:
+  Stage: deploy
+  Script:
+-	Echo Deploying project...
+Only:
+-	Main > .gitlab-ci.yml
+
